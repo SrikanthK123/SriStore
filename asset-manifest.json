@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SriStore/static/css/main.4bc8a094.css",
-    "main.js": "/SriStore/static/js/main.08e8e11d.js",
+    "main.css": "/SriStore/static/css/main.bd170a0d.css",
+    "main.js": "/SriStore/static/js/main.d576b966.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/SamsungLatestUpdatevideo.mp4": "/SriStore/static/media/SamsungLatestUpdatevideo.921cae416653d7410e18.mp4",
     "static/media/cutting-board.gif": "/SriStore/static/media/cutting-board.52339d98e119844411c4.gif",
@@ -39,12 +39,12 @@
     "static/media/slick.ttf": "/SriStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
-    "main.4bc8a094.css.map": "/SriStore/static/css/main.4bc8a094.css.map",
-    "main.08e8e11d.js.map": "/SriStore/static/js/main.08e8e11d.js.map",
+    "main.bd170a0d.css.map": "/SriStore/static/css/main.bd170a0d.css.map",
+    "main.d576b966.js.map": "/SriStore/static/js/main.d576b966.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc8a094.css",
-    "static/js/main.08e8e11d.js"
+    "static/css/main.bd170a0d.css",
+    "static/js/main.d576b966.js"
   ]
 }
