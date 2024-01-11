@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SriStore/static/css/main.2b206b8e.css",
-    "main.js": "/SriStore/static/js/main.65a1a973.js",
+    "main.js": "/SriStore/static/js/main.f4e86c72.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/cutting-board.gif": "/SriStore/static/media/cutting-board.52339d98e119844411c4.gif",
     "static/media/pan1.gif": "/SriStore/static/media/pan1.0013e6da858836b95c62.gif",
@@ -38,11 +38,11 @@
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
     "main.2b206b8e.css.map": "/SriStore/static/css/main.2b206b8e.css.map",
-    "main.65a1a973.js.map": "/SriStore/static/js/main.65a1a973.js.map",
+    "main.f4e86c72.js.map": "/SriStore/static/js/main.f4e86c72.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b206b8e.css",
-    "static/js/main.65a1a973.js"
+    "static/js/main.f4e86c72.js"
   ]
 }
