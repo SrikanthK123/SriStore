@@ -1,38 +1,795 @@
-.App {
-  text-align: center;
+#Nav-Item{
+  color: #01497B;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+#Nav-Item:hover{
+  color: white;
+  background-color: black;
+  text-shadow: 2px 2px 2px rgb(104, 215, 193);
+}
+#ToggleImage{
+  
+  
+  background-color:#407088;
+
+}
+#SubDrop:hover{
+  color: white;
+  background-color: black;
+}
+#KitchBg:hover{
+  background-color: #9cd3d3;
+}
+.HomePage{
+  background-color:#01497B;
+  width: 100%;
+  height: auto;
+
+}
+#HomeFirstSub{
+  background: linear-gradient(rgba(71, 90, 94, 0.8), rgba(53, 65, 64, 0.8)), url('./Images/Banner3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} 
+#SecBG{
+  background: linear-gradient(rgba(166, 130, 194, 0.8), rgba(138, 227, 219, 0.8)), url('./Images/BannerForNext.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  
+}
+#MobileCard{
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#Mobiles:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+#MobileCard:hover #Mobiles{
+  filter: brightness(100%);
+  transform: scale(1.3);
+}
+#MobileCard #Mobiles{
+  transform-origin: 50% 65%;
+  transition: transform 2s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+#MobilePage{
+  background: linear-gradient(rgb(20 31 48 / 80%), rgb(38 40 69 / 80%)), url('https://www.cultofmac.com/wp-content/uploads/2020/04/iphone-12-pro.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+#mobileSection1{
+  background: linear-gradient(rgb(14 22 34 / 80%), rgb(14 22 34 / 80%)),url("https://i.gadgets360cdn.com/large/iPhone_14_Pro_Max-2_1662719578461.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#mobileSection2{
+  background: linear-gradient(rgb(14 22 34 / 80%), rgb(14 22 34 / 80%)),url("https://cdn.images.express.co.uk/img/dynamic/59/940x/secondary/samsung-galaxy-s23-ultra-affordable-sky-mobile-4765233.jpg?r=1684677407625");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#mobileSection3{
+  background: linear-gradient(rgb(14 22 34 / 80%), rgb(14 22 34 / 80%)),url("https://im.indiatimes.in/facebook/2018/Aug/oneplus_1533295290.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#mobileSection4{
+  background: linear-gradient(rgb(26 36 51 / 80%), rgb(21 30 43 / 80%)),url("https://images.tokopedia.net/img/KRMmCm/2022/1/17/596aa741-25ff-4749-95c2-6bb6e7428db3.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#mobileSection5{
+  background: linear-gradient(rgb(16 27 43 / 80%), rgb(21 30 43 / 80%)),url("https://www.financeupdates.net/wp-content/uploads/2022/04/Vivo-V23-Price-in-Pakistan-2022-and-Full-Specs.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#LinkedIn{
+  color: black;
+}
+#Insta{
+  color: black;
+}
+#Github{
+  color: black;
+}
+#LinkedIn:hover{
+  color: rgb(50, 50, 226);
+}
+#Insta:hover{
+  color: rgb(252, 67, 196);
+}
+#Github:hover{
+  color: rgb(149, 147, 147);
+}
+#LaptopPage{
+  background: linear-gradient(rgb(20 31 48 / 80%), rgb(38 40 69 / 80%)), url('https://media.tenor.com/PC5Cwpf1CCgAAAAd/lenovo-lenovo-thinkpad.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#LaptopSection1{
+  background: linear-gradient(rgb(16 27 43 / 80%), rgb(21 30 43 / 80%)),url("https://www.notebookcheck.net/fileadmin/_processed_/f/9/csm_Dell_Insp5310_1_9ef82e69ad.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#LaptopSection2{
+  background: linear-gradient(rgb(62 81 108 / 80%), rgb(21 30 43 / 80%)),url("https://cdn2.vox-cdn.com/uploads/chorus_asset/file/7390261/vpavic_161031_1256_0264.0.jpg");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#LaptopSection3{
+  background: linear-gradient(rgb(30 34 40 / 80%), rgb(21 30 43 / 80%)),url("https://www.itechguides.com/wp-content/uploads/2020/08/Best-HP-Laptop.jpg ");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#LaptopSection4{
+  background: linear-gradient(rgb(24 31 40 / 80%), rgb(21 30 43 / 80%)),url("https://th.bing.com/th/id/R.03596a28bc38bc993e937274cd540ec5?rik=zrNNpYAeLQt9JQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2fa%2fa%2f26892.jpg&ehk=S%2bjGupyfypp%2bebBkwW5oKRUw2vn6W7ohJmpi1mznFjg%3d&risl=&pid=ImgRaw&r=0");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#LaptopSection5{
+  background: linear-gradient(rgb(52 66 84 / 80%), rgb(21 30 43 / 80%)),url("https://www.cnet.com/a/img/KS7LIrHhsgdyp_-6rtfAmQ9SG-s=/1092x0/2021/05/10/359ed8db-0a83-4402-a381-eaa4d53c3f6b/lenovo-legion-7i-front-facing-left.png");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  cursor: pointer;
+}
+#KitchenBanner{
+  background: linear-gradient(rgba(71, 90, 94, 0.8), rgba(53, 65, 64, 0.8)), url('./Images/KitchenImg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+#kitchenCard img {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(80%);
+}
+#kitchenCard:hover img {
+  filter: brightness(100%);
+  transform: scale(1.03);
+}
+#PriceText{
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  border: 2px solid cyan;
+}
+#MenPriceText{
+  border-radius: 12px;
+  background-color: #38598b;
+  color: white;
+  border: 2px solid #f70776;
+}
+#MenPriceText{
+  border-radius: 12px;
+  background-color: #38598b;
+  color: white;
+  border: 2px solid #f70776;
+}
+.SinglrKitchenPage{
+  background-color: #8ed2c9;
+  width: 100%;
+  height: auto;
+}
+#Product{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: #13c635;
+  border-radius: 12px;
+
+}
+#Product:hover{
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #13acc6;
+  border-radius: 12px;
+
+}
+#Amount{
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #f6378f;
+  width: fit-content;
+  color: #f5f5f5;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 8px;
+}
+#Amount:hover{
+  background-color: #044a42;
+  color: #fffdef;
+}
+#MenFashionPage{
+  background: linear-gradient(rgb(20 31 48 / 80%), rgb(38 40 69 / 80%)), url('https://www.clootrack.com/hubfs/Imported_Blog_Media/Market-Research-GIF-downsized-1-2.gif#keepProtocol');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+#WomenFashionPage{
+  background: linear-gradient(rgb(20 31 48 / 80%), rgb(38 40 69 / 80%)), url('https://media.giphy.com/media/26n6HDYUnvBYg7Rle/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+#KidsToyPage{
+  background: linear-gradient(rgb(20 31 48 / 80%), rgb(38 40 69 / 80%)), url('https://media.giphy.com/media/Z1sBuc9mnixO0/giphy.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+img {
+  width: 100%;
+  height: auto;
+	padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-align:center;
+	padding-bottom: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.slick-dots {
+	text-align: center;
+  margin: 0 0 10px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.prev{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	left: -2em;
+	font-size: 1.5em;
+		:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+.next{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	right: -2em;
+	font-size: 1.5em;
+	:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+    }
+}
+
+.slick-prev {
+  left: -11px !important;
+}
+
+.slick-next {
+  right: -6px !important;
+}
+#TshirtsSlider:hover{
+  background-color: #13acc6;
+}
+.bn30{
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #407088;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: white;
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.bn30:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid cyan;
+}
+#CardTest {
+  height: 40vh;
+  background: #01497B;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white;
+  transition: 0.2s ease-in-out;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#CardTest{
+  height: 350px;
+}
+.card-body {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+}
+#CardTest:hover{
+  background-color:#044a42;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#CardTest:hover > .card-body{
+  opacity: 1;
+  
+}
+#CardTest:hover > #ImgList {
+  height: 65%;
+  filter: blur(7px);
+  animation: anim 3s infinite;
+  
+}
+#LaptopCards:hover > #ImgList {
+  height: 37vh;
+  animation: anim 3s infinite;
+  transition: 1s ease-in-out;
+  filter: blur(3px);
+  padding: 20px;
+}
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#LaptopCards{
+  background-color: #01497B;
+  border-radius: 12px;
+  
+  
+}
+#LaptopCards:hover{
+  transition: 0.5 ease-in-out;
+  background-color:#044a42;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.card-img-overlay:hover > #CardBody{
+  transition: 0.5 ease-in-out;
+  opacity: 1;
+  background-color: rgba(61, 46, 46, 0.5); 
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background:  linear-gradient(to bottom,
+  rgba(61, 46, 46, 0.5) 0%,
+  rgba(61, 46, 46, 0.5) 50%,
+  rgba(61, 46, 46, 0.5),
+   #506f86 100%
+  );
+  
+}
+#CardBody {
+  opacity: 0;
+  
+ 
+}
+#Image{
+  height: 50vh;
+}
+#LaptopCards:hover > #Image {
+  height: 50vh;
+  animation: anim 3s infinite;
+  transition: 1s ease-in-out;
+  filter: blur(3px);
+}
+#cardTitleName{
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+#openPage{
+  text-decoration: none;
+  color: yellow;
+}
+#openPage:hover{
+  text-decoration: none;
+  color:#73b3e1;
+}
+#CarAnimartion{
+  width: 70px;
+  height: 70px;
+  animation: slideInLeft 1.2s ease-in-out;
+}
+
+@keyframes slideInLeft{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(180%);
+    opacity: 0;
+  }
+}
+
+#ProductBuyBtn{
+  background-color: #a2a8d3;
+  border-radius: 13px;
+  box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#ProductBuyBtn:hover{
+  background-color: #cdd5f5;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+#ProductCart{
+  background-color: #53a8b6;
+  border-radius: 13px;
+  box-shadow:rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#ProductCart:hover{
+  background-color: #79c2d0;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+#ProductCart:active{
+  border: 2px solid #c3195d;
+}
+#ProductBuyBtn:active{
+  border: 2px solid #e8751a;
+}
+.wrapper-success {
+  margin: 120px;
+}
+.wrapper-success .card {
+  width: 720px;
+  height: 120px;
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 5px solid #49d761;
+  border-radius: 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.wrapper-success .card .subject {
+  margin-right: 180px;
+}
+.wrapper-success .card .subject p {
+  color: #909092;
+}
+.wrapper-success .card .icon {
+  font-size: 28px;
+  color: #49d761;
+}
+.wrapper-success .card .icon-times {
+  font-size: 28px;
+  color: #c3c2c7;
+  cursor: pointer;
+}
+.toast.active {
+  transform: translateX(0%);
+}
+
+.toast .toast-content {
+  display: flex;
+  align-items: center;
+}
+
+.toast-content .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  min-width: 35px;
+  background-color: #4070f4;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.toast-content .message {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.message .text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.message .text.text-1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.toast .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.toast .close:hover {
+  opacity: 1;
+}
+
+.toast .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+
+}
+
+.toast .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070f4;
+}
+
+.progress.active:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #4070f4;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0e4bf1;
+}
+
+.toast.active ~ button {
+  pointer-events: none;
+}
+#MemoryAnim{
+  animation: memoryAnimation 1.2s infinite;
+}
+
+@keyframes memoryAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    transform: translatex(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+#LaptopMainImg{
+  border-radius: 12px;
+  background:  linear-gradient(to bottom,
+  #256083 0%,
+  black 25%,
+  black 50%,
+  black,
+  #256083 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#LaptopFeatures{
+  background:  linear-gradient(to bottom,
+  #117cb9 0%,
+  #01497B 25%,
+  #01497B 50%,
+  #01497B,
+  #8b9ca6 100%
+  );
+  cursor: pointer;
+}
+#LaptopFeatures:hover > h1{
+ 
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#LaptopFeatures:hover{
+ 
+  background:  linear-gradient(to bottom,
+  black 0%,
+  #117cb9 25%,
+  #117cb9 50%,
+  #117cb9 75%,
+  black 100%
+  );
+}
+#FeaturesImgs{
+  width: 20vh;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#LaptopFeatures:hover > #FeaturesImgs{
+  width: 20vh;
+  background-color: #9dbcd2;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  animation: memoryAnimation 1.2s infinite;
+}
+#AllLaptopRow{
+  background-color: black;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 10px;
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#gellaryImg {
+  background-color: black;
+  
+}
+#gellaryImg:hover {
+  animation: LaptopAnimi 1s 1;
+  border-radius: 20px;
+  background-color: #01497B;
+  
+}
+
+@keyframes LaptopAnimi {
+  0% {
+    background: linear-gradient(to bottom, #01497B 0%,black 50%,black 100%);
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    background: linear-gradient(to bottom,#01497B 0%, #01497B 25%,black 50%,black 100%);
   }
+  50% {
+    background: linear-gradient(to bottom, #01497B 0%,#01497B 25%,#01497B 50%,black 100%);
+  }
+  75% {
+    background: linear-gradient(to bottom,#01497B 0%,#01497B 25%,#01497B 50%,#01497B 75%,black 100%);
+  }
+  100% {
+    background: linear-gradient(to bottom,#01497B 0%,#01497B 25%,#01497B 50%,#01497B 75%,#01497B 100%);
+  }
+}
+
+#LaptopBtn{
+  background-color: #01497B;
+  width: 80px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 16px;
+}
+
+#LaptopBtn:hover{
+  background-color: #044a42;
+  animation: ButtonAnimation 0.8s 1;
+  transition: 1s ease-in-out;
+ 
+
+}
+@keyframes ButtonAnimation{
+  0%{
+   
+    background: linear-gradient(to bottom, #044a42 0%, #01497B 25%,#01497B 50%,#01497B 75%,#01497B 100%); 
+  }
+  25%{
+    
+    background: linear-gradient(to bottom,#044a42 0%, #044a42 25%,#01497B  50%,#01497B 75%,#01497B 100%);
+  }
+  50%{
+    
+    background: linear-gradient(to bottom, #044a42 0%,#044a42 25%,#044a42 50%,#01497B 75%,#01497B 100%);
+  }
+  75% {
+    background: linear-gradient(to bottom,#044a42 0%,#044a42 25%,#044a42 50%,#044a42 75%,#01497B 100%);
+  }
+  100%{
+    
+    background: linear-gradient(to bottom,#044a42 0%,#044a42 25%,#044a42 50%,#044a42 75%,#044a42 100%);
+   
+  }
+}
+#LaptopBtn:active{
+  transform: scale(10);
+  
+ 
+
 }
