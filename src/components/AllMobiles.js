@@ -75,7 +75,7 @@ const AllMobiles = (props) => {
               data-bs-target="#exampleModal"
               
             >
-               <Link><img src='https://cdn-icons-png.flaticon.com/512/10473/10473788.png' id="LaptopBtn" /></Link>
+               <Link><img className="p-2" src='https://cdn-icons-png.flaticon.com/512/4183/4183958.png' id="LaptopBtn" /></Link>
              <div
                 class="modal fade "
                 id="exampleModal"
@@ -263,7 +263,7 @@ const AllMobiles = (props) => {
             </Link>
   
             <Link data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <Link><img src='https://cdn-icons-png.flaticon.com/512/6190/6190179.png' id="LaptopBtn" /></Link>
+            <Link><img className="p-2" src='https://cdn-icons-png.flaticon.com/512/10549/10549328.png' id="LaptopBtn" /></Link>
             </Link>
   
             <div

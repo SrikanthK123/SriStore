@@ -3,6 +3,7 @@ import Logo from "../Images/SristoreLogo.png";
 import {
   Link
 } from "react-router-dom";
+import avatar from "../Images/avatar.gif"
 const NavBar = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const NavBar = () => {
         style={{ backgroundColor: "rgb(201 200 230)" }}
       >
         <div class="container-fluid">
-          <Link class="navbar-brand " to="/">
+          <Link class="navbar-brand " to="/SriStore">
             <img src={Logo} />
           </Link>
           <button
@@ -156,15 +157,8 @@ const NavBar = () => {
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+             
+              <img src= {avatar} style={{width:'70px',borderRadius:'50%'}} />
             </form>
           </div>
         </div>

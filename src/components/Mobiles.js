@@ -44,7 +44,7 @@ const Mobiles = () => {
   <div class="p-5 text-center bg-body-tertiary rounded-3" id='mobileSection2' >
     <h1 class="text"><img src={SamsungLogo} style={{width:'120px',height:'80px',marginRight:'5px'}} />Samsung</h1>
     <p class="lead"  style={{textAlign:'justify',display:'flex',justifyContent:'center'}}>
-    Samsung, a tech titan, crafts a diverse range of devices marked by innovation and versatility, from cutting-edge smartphones to state-of-the-art appliances.
+    Samsung, a tech titan, crafts a diverse range of devices marked by innovation and versatility, from cutting-edge smartphones.
     </p>
   </div>
   </Link>

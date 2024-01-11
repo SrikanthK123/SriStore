@@ -2426,7 +2426,7 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/SriStore">
             {" "}
             <Home />
           </Route>
