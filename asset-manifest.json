@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SriStore/static/css/main.2b206b8e.css",
-    "main.js": "/SriStore/static/js/main.f4e86c72.js",
+    "main.css": "/SriStore/static/css/main.fc556e14.css",
+    "main.js": "/SriStore/static/js/main.db625397.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/cutting-board.gif": "/SriStore/static/media/cutting-board.52339d98e119844411c4.gif",
     "static/media/pan1.gif": "/SriStore/static/media/pan1.0013e6da858836b95c62.gif",
@@ -19,6 +19,7 @@
     "static/media/buy-now.gif": "/SriStore/static/media/buy-now.bade9d4594367afbc617.gif",
     "static/media/LenovoLogo1.gif": "/SriStore/static/media/LenovoLogo1.0777f05e8ebe50806785.gif",
     "static/media/shopping-bag.gif": "/SriStore/static/media/shopping-bag.2a75c5952abc78bbd146.gif",
+    "static/media/avatar.gif": "/SriStore/static/media/avatar.7b893df292aabc5b8cac.gif",
     "static/media/SamsungLogo1.gif": "/SriStore/static/media/SamsungLogo1.d15422a63effb455498b.gif",
     "static/media/ProductAddCart.gif": "/SriStore/static/media/ProductAddCart.6cd78ae63de54e76762f.gif",
     "static/media/AddTocart.gif": "/SriStore/static/media/AddTocart.ffc7c497baf89394cbf1.gif",
@@ -37,12 +38,12 @@
     "static/media/slick.ttf": "/SriStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
-    "main.2b206b8e.css.map": "/SriStore/static/css/main.2b206b8e.css.map",
-    "main.f4e86c72.js.map": "/SriStore/static/js/main.f4e86c72.js.map",
+    "main.fc556e14.css.map": "/SriStore/static/css/main.fc556e14.css.map",
+    "main.db625397.js.map": "/SriStore/static/js/main.db625397.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b206b8e.css",
-    "static/js/main.f4e86c72.js"
+    "static/css/main.fc556e14.css",
+    "static/js/main.db625397.js"
   ]
 }
