@@ -37,8 +37,7 @@ function App() {
   const KitchenItem = [
     {
       title: "Non-stick frying pan",
-      description:
-        "  Non-stick frying pan ensures a seamless cooking experience,allowing you to create delicious meals without worrying about food sticking to the surface. The advanced non-stick coating guarantees easy food release and simple cleanup,making your kitchen adventures a joy.",
+      description: "Non-stick frying pan ensures a seamless cooking experience,allowing you to create delicious meals without worrying about food sticking to the surface. The advanced non-stick coating guarantees easy food release and simple cleanup,making your kitchen adventures a joy.",
       img1: "https://th.bing.com/th/id/R.099d68676b447cb0de3817e5ebfc3b73?rik=vYvEBMj4FvIDwg&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffrying_pan%2ffrying_pan_PNG8342.png&ehk=UCxH2n3N9Ir4FhjILW%2bSpyYXP6yON%2bOXpIl8tm1jRq0%3d&risl=1&pid=ImgRaw&r=0",
       img2: "https://www.pngmart.com/files/17/Stainless-Steel-Frying-Pan-PNG-Photos.png",
       img3: "https://www.pinclipart.com/picdir/big/214-2144303_wok-dish-tableware-frying-frying-pan-with-food.png",
@@ -1496,7 +1495,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : "The ROG Strix G15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Operating_System : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software.",
-      Connectivity : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Connectivity : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://dlcdnwebimgs.asus.com/gain/D336705A-46C9-405F-9A01-D8F5EDD6B11E/w1000/h732",
     },
     {
@@ -1513,7 +1512,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Operating_System : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Connectivity : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Connectivity : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://www.notebookcheck.net/fileadmin/_processed_/6/b/csm_ROG_STrix_Scar_153_052ee2a139.png",
     },
     {
@@ -1530,7 +1529,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : "Zephyrus laptops are known for their high-refresh-rate displays, often with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Operating_System : "The laptops are likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity softwar",
-      Connectivity : " A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Connectivity : " A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://dlcdnwebimgs.asus.com/gain/676317DE-8D03-445A-AAC3-6BE6E558BF1E",
     },
     {
@@ -1547,7 +1546,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : "Zephyrus laptops are known for their high-refresh-rate displays, often with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Operating_System : "The laptops are likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity softwar",
-      Connectivity : " A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Connectivity : " A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://laptop88.vn/media/product/3899_dell_e6430_4.png",
     },
     {
@@ -1719,7 +1718,7 @@ function App() {
       Operating_System : "An iOS 13 operating system that can be upgraded to iOS 17.2",
       Storage : "A 4 GB RAM and a 64 GB, 128 GB, or 256 GB internal storage option, with no card slot for expansion",
       Display : "A 6.1-inch Liquid Retina IPS LCD display with a resolution of 828 x 1792 pixels and a scratch-resistant glass protection.",
-      Camera : "A dual 12 MP rear camera with a wide-angle and an ultra-wide-angle lens, and a 12 MP front camera with a depth sensor. Both cameras can record 4K videos at up to 60 fps and support HDR and stereo sound",
+      Camera : "A dual 12 MP rear camera with a wide-angle and an ultra-wide-angle lens, and a 12 MP front camera with a depth sensor.",
       Battery : "A 3110 mAh Li-Ion battery that supports fast wired charging (50% in 30 min) and wireless charging (Qi standard)",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662418914/Croma%20Assets/Communication/Mobiles/Images/230107_t40uo8.png?tr=w-640"
     },
@@ -1737,7 +1736,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : "A 6.7-inch Super Retina XDR OLED display with a resolution of 1284 x 2778 pixels and a Ceramic Shield glass protection.",
       Camera : "A triple 12 MP rear camera with a wide-angle, an ultra-wide-angle, and a telephoto lens, and a 12 MP front camera with a depth sensor.",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664009286/Croma%20Assets/Communication/Mobiles/Images/243535_13_ki3dgg.png?tr=w-640",
     },
     {
@@ -1822,7 +1821,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662424588/Croma%20Assets/Communication/Mobiles/Images/229925_lhcfej.png?tr=w-640"
     },
     {
@@ -1839,7 +1838,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662655547/Croma%20Assets/Communication/Mobiles/Images/261970_blsyac.png?tr=w-640"
     },
     {
@@ -1856,7 +1855,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1696593467/Croma%20Assets/Communication/Mobiles/Images/301866_jfzjlc.png?tr=w-640",
     },
     {
@@ -1873,7 +1872,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1675347214/Croma%20Assets/Communication/Mobiles/Images/268875_csxo0h.png?tr=w-640",
     },
     {
@@ -1890,7 +1889,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662655547/Croma%20Assets/Communication/Mobiles/Images/261970_blsyac.png?tr=w-640"
     },
     {
@@ -1907,7 +1906,7 @@ function App() {
       Storage : "Fast SSD storage for quick data access and system responsiveness. Some models may also include additional HDD storage for higher capacity.",
       Display : " The ROG Strix Scar 15 is expected to have a high-refresh-rate display, possibly with options for Full HD or higher resolutions. Adaptive sync technologies may be included for smoother gaming experiences.",
       Camera : "The laptop is likely to run the Windows operating system, providing compatibility with a wide range of gaming and productivity software",
-      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories. Some models may include Thunderbolt ports.",
+      Battery : "A variety of ports, including USB, HDMI, Ethernet, and audio jacks, to accommodate gaming peripherals and accessories.",
       imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1696593467/Croma%20Assets/Communication/Mobiles/Images/301866_jfzjlc.png?tr=w-640",
     },
     {

@@ -10,79 +10,79 @@ import SuccessFullyOrder from "../Images/Bell_Success.wav"
 const KitchenSingle = (props) => {
   const PositiveReview = [
     {
-      mail: "sri@gamil.com",
+      mail: "Srikanth",
       review: `Outstanding ${props.title}! The quality is superb, and it exceeded my expectations. Worth every penny!`,
     },
     {
-      mail: "avyay@gamil.com",
+      mail: "Avyay",
       review: ` ${props.title} has revolutionized my daily routine. It's user-friendly and incredibly efficient`,
     },
     {
-      mail: "kiran@gamil.com",
+      mail: "Kiran",
       review: `Impressive features and durability. I highly recommend this product to anyone in need of a reliable solution.`,
     },
     {
-      mail: "gautham@gamil.com",
+      mail: "Gautham",
       review: `The customer service is excellent, and the product delivered on time. A fantastic overall experience.`,
     },
     {
-      mail: "maha@gamil.com",
+      mail: "Maha",
       review: `Great value for money. It does exactly what it promises, and I'm extremely satisfied with my purchase.`,
     },
     {
-      mail: "kamal@gamil.com",
+      mail: "Kamal",
       review: `Exceptional build quality. I've tried similar products, but none match the reliability of this one.`,
     },
   ];
   const NegativieReview = [
     {
-      mail: "aravind@gamil.com",
+      mail: "Rravind",
       review: `Extremely disappointed. The product broke within a week of use. Poor quality and not worth the money.`,
     },
     {
-      mail: "rahul@gamil.com",
+      mail: "Rahul",
       review: `Misleading advertising. The features touted were not as impressive in reality. Feeling let down.`,
     },
     {
-      mail: "vinay@gamil.com",
+      mail: "Vinay",
       review: `Terrible customer service. No response to my issues with the ${props.title}. Avoid this company at all costs.`,
     },
     {
-      mail: "venkat@gamil.com",
+      mail: "Venkat",
       review: `${props.Price},Overpriced for what you get. There are better alternatives on the market at a fraction of the cost`,
     },
     {
-      mail: "ramu@gamil.com",
+      mail: "Ramu",
       review: `Difficult to use, and the instructions are unclear. I expected a more user-friendly experience.`,
     },
     {
-      mail: "krishna@gamil.com",
+      mail: "Krishna",
       review: `Flimsy construction. The product feels cheap, and I doubt its durability over the long term.`,
     },
   ];
   const AverageReview = [
     {
-      mail: "siri@gamil.com",
+      mail: "Siri",
       review: `Decent product. It performs adequately for its price point, but nothing exceptional.`,
     },
     {
-      mail: "lata@gamil.com",
+      mail: "Lata",
       review: `A satisfactory purchase. It does what it claims, but I expected a bit more in terms of performance.`,
     },
     {
-      mail: "priya@gamil.com",
+      mail: "Priya",
       review: `Fair value for money. It's neither impressive nor disappointing, just an average product`,
     },
     {
-      mail: "pooja@gamil.com",
+      mail: "Pooja",
       review: `Okay product. It meets basic expectations but lacks the standout features found in competitors.`,
     },
     {
-      mail: "ramya@gamil.com",
+      mail: "Ramya",
       review: `Reasonably good. It won't blow you away, but it gets the job done without major issues`,
     },
     {
-      mail: "kavya@gamil.com",
+      mail: "Kavya",
       review: `Average quality. I haven't encountered significant problems, but it doesn't excel in any particular area.`,
     },
   ];
@@ -227,7 +227,7 @@ const KitchenSingle = (props) => {
                   </div>
 
                   <button
-                    class="carousel-control-prev"
+                    class="carousel-control-prev bg-transparent"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev"
@@ -240,7 +240,7 @@ const KitchenSingle = (props) => {
                     <span class="visually-hidden">Previous</span>
                   </button>
                   <button
-                    class="carousel-control-next"
+                    class="carousel-control-next bg-transparent"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next"
@@ -377,7 +377,7 @@ const KitchenSingle = (props) => {
                           {props.title}
                         </h5>
                         <p style={{ textAlign: "justify" }}>
-                          {props.desc && props.desc.slice(0, 99)}
+                          {props.description && props.description.slice(0, 99)}
                           ....
                         </p>
                         {showBanner && clickCount > 0 ? (
@@ -603,7 +603,7 @@ const KitchenSingle = (props) => {
               </div>
             </div>
             <div class="col-md-5">
-              <img src={Receipt} style={{ width: "350px", height: "350px" }} />
+              <img src={Receipt} style={{ width: "325px", height: "350px" }} />
               <br />
               <h1
                 style={{

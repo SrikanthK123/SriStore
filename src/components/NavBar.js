@@ -4,16 +4,17 @@ import {
   Link
 } from "react-router-dom";
 import avatar from "../Images/avatar.gif"
+import LogoTest from '../Images/SriStoreLogo1.png'
 const NavBar = () => {
   return (
     <div>
       <nav
         class="navbar navbar-expand-lg"
-        style={{ backgroundColor: "rgb(201 200 230)" }}
+        style={{ backgroundColor: "#01497B" }}
       >
         <div class="container-fluid">
           <Link class="navbar-brand " to="/SriStore">
-            <img src={Logo} />
+            <img src={LogoTest} className="LogoMain" />
           </Link>
           <button
             class="navbar-toggler"
@@ -30,7 +31,7 @@ const NavBar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
-                <Link to="/" class="nav-link" id="Nav-Item">
+                <Link to="/SriStore" class="nav-link" id="Nav-Item">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -156,9 +157,9 @@ const NavBar = () => {
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex"  role="search">
              
-              <img src= {avatar} style={{width:'70px',borderRadius:'50%'}} />
+              <img src= {avatar} className="avatarImg"  />
             </form>
           </div>
         </div>
