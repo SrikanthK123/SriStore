@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/SriStore/static/css/main.717c683f.css",
-    "main.js": "/SriStore/static/js/main.6ab0e166.js",
+    "main.js": "/SriStore/static/js/main.c0d79b1a.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
+    "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
+    "static/media/SonyTv.mp4": "/SriStore/static/media/SonyTv.32ea46ff052173cf3014.mp4",
     "static/media/OnePlusVideo.mp4": "/SriStore/static/media/OnePlusVideo.60a76fc73811041b9bd2.mp4",
     "static/media/SamsungLatestUpdatevideo.mp4": "/SriStore/static/media/SamsungLatestUpdatevideo.921cae416653d7410e18.mp4",
     "static/media/DellVideo.mp4": "/SriStore/static/media/DellVideo.624aeee7fb63e6a55d81.mp4",
     "static/media/HPGamingLTVideo.mp4": "/SriStore/static/media/HPGamingLTVideo.d709d7929b3f7936794c.mp4",
     "static/media/IPhone15Video.mp4": "/SriStore/static/media/IPhone15Video.f63454b428b4a7ff1560.mp4",
+    "static/media/LGVideo.mp4": "/SriStore/static/media/LGVideo.a0c666472e2c3bd7626d.mp4",
+    "static/media/TitanWatch.mp4": "/SriStore/static/media/TitanWatch.026c16f1cd45ef716c78.mp4",
+    "static/media/RolexWatchVideo.mp4": "/SriStore/static/media/RolexWatchVideo.5827facdbe6e609358bf.mp4",
     "static/media/cutting-board.gif": "/SriStore/static/media/cutting-board.52339d98e119844411c4.gif",
+    "static/media/FirebolttWatch.mp4": "/SriStore/static/media/FirebolttWatch.0114db2b970254a05129.mp4",
     "static/media/pan1.gif": "/SriStore/static/media/pan1.0013e6da858836b95c62.gif",
     "static/media/KitchenImg.jpg": "/SriStore/static/media/KitchenImg.b5a710ecfc248cd3515b.jpg",
     "static/media/buy1.gif": "/SriStore/static/media/buy1.ed0b531395428f9bdda4.gif",
@@ -45,11 +51,11 @@
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
     "main.717c683f.css.map": "/SriStore/static/css/main.717c683f.css.map",
-    "main.6ab0e166.js.map": "/SriStore/static/js/main.6ab0e166.js.map",
+    "main.c0d79b1a.js.map": "/SriStore/static/js/main.c0d79b1a.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.717c683f.css",
-    "static/js/main.6ab0e166.js"
+    "static/js/main.c0d79b1a.js"
   ]
 }
