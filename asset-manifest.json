@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SriStore/static/css/main.487d621c.css",
-    "main.js": "/SriStore/static/js/main.6afc0f5a.js",
+    "main.js": "/SriStore/static/js/main.bfa46ac7.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
     "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
@@ -41,6 +41,7 @@
     "static/media/Bell_Success.wav": "/SriStore/static/media/Bell_Success.444046fd6ce0ae515e9a.wav",
     "static/media/MacLogo1.gif": "/SriStore/static/media/MacLogo1.cdd199464c062dbce325.gif",
     "static/media/Banner3.jpg": "/SriStore/static/media/Banner3.4ac1992a6425018e950f.jpg",
+    "static/media/SriStoreLogo1.png": "/SriStore/static/media/SriStoreLogo1.f2fc760dc7534850913e.png",
     "static/media/One+.png": "/SriStore/static/media/One+.c7e6b134a296c5ac4789.png",
     "static/media/S23.png": "/SriStore/static/media/S23.3548865e3776364e5faa.png",
     "static/media/IPhone15.png": "/SriStore/static/media/IPhone15.3e503eafd0df6f8c482a.png",
@@ -51,11 +52,11 @@
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
     "main.487d621c.css.map": "/SriStore/static/css/main.487d621c.css.map",
-    "main.6afc0f5a.js.map": "/SriStore/static/js/main.6afc0f5a.js.map",
+    "main.bfa46ac7.js.map": "/SriStore/static/js/main.bfa46ac7.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.487d621c.css",
-    "static/js/main.6afc0f5a.js"
+    "static/js/main.bfa46ac7.js"
   ]
 }
