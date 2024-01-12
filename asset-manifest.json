@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/SriStore/static/css/main.bd170a0d.css",
-    "main.js": "/SriStore/static/js/main.c99ff1e3.js",
+    "main.css": "/SriStore/static/css/main.717c683f.css",
+    "main.js": "/SriStore/static/js/main.4a50790f.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
+    "static/media/OnePlusVideo.mp4": "/SriStore/static/media/OnePlusVideo.60a76fc73811041b9bd2.mp4",
     "static/media/SamsungLatestUpdatevideo.mp4": "/SriStore/static/media/SamsungLatestUpdatevideo.921cae416653d7410e18.mp4",
+    "static/media/IPhone15Video.mp4": "/SriStore/static/media/IPhone15Video.f63454b428b4a7ff1560.mp4",
     "static/media/cutting-board.gif": "/SriStore/static/media/cutting-board.52339d98e119844411c4.gif",
     "static/media/pan1.gif": "/SriStore/static/media/pan1.0013e6da858836b95c62.gif",
     "static/media/KitchenImg.jpg": "/SriStore/static/media/KitchenImg.b5a710ecfc248cd3515b.jpg",
@@ -39,12 +41,12 @@
     "static/media/slick.ttf": "/SriStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
-    "main.bd170a0d.css.map": "/SriStore/static/css/main.bd170a0d.css.map",
-    "main.c99ff1e3.js.map": "/SriStore/static/js/main.c99ff1e3.js.map",
+    "main.717c683f.css.map": "/SriStore/static/css/main.717c683f.css.map",
+    "main.4a50790f.js.map": "/SriStore/static/js/main.4a50790f.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd170a0d.css",
-    "static/js/main.c99ff1e3.js"
+    "static/css/main.717c683f.css",
+    "static/js/main.4a50790f.js"
   ]
 }
