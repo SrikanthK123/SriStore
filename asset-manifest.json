@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SriStore/static/css/main.487d621c.css",
-    "main.js": "/SriStore/static/js/main.bfa46ac7.js",
+    "main.css": "/SriStore/static/css/main.4ebc5b89.css",
+    "main.js": "/SriStore/static/js/main.bd87c49e.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
     "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
@@ -51,12 +51,12 @@
     "static/media/slick.ttf": "/SriStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
-    "main.487d621c.css.map": "/SriStore/static/css/main.487d621c.css.map",
-    "main.bfa46ac7.js.map": "/SriStore/static/js/main.bfa46ac7.js.map",
+    "main.4ebc5b89.css.map": "/SriStore/static/css/main.4ebc5b89.css.map",
+    "main.bd87c49e.js.map": "/SriStore/static/js/main.bd87c49e.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.487d621c.css",
-    "static/js/main.bfa46ac7.js"
+    "static/css/main.4ebc5b89.css",
+    "static/js/main.bd87c49e.js"
   ]
 }
