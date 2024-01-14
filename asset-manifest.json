@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SriStore/static/css/main.6a5fc9d0.css",
-    "main.js": "/SriStore/static/js/main.4b42115d.js",
+    "main.css": "/SriStore/static/css/main.d666ec96.css",
+    "main.js": "/SriStore/static/js/main.d9521816.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
     "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
@@ -34,15 +34,19 @@
     "static/media/avatar.gif": "/SriStore/static/media/avatar.7b893df292aabc5b8cac.gif",
     "static/media/SamsungLogo1.gif": "/SriStore/static/media/SamsungLogo1.d15422a63effb455498b.gif",
     "static/media/ProductAddCart.gif": "/SriStore/static/media/ProductAddCart.6cd78ae63de54e76762f.gif",
+    "static/media/wallet.gif": "/SriStore/static/media/wallet.94f7c409c2c532ebd04d.gif",
     "static/media/AddTocart.gif": "/SriStore/static/media/AddTocart.ffc7c497baf89394cbf1.gif",
+    "static/media/broken.gif": "/SriStore/static/media/broken.c81a52e97cb179a435a1.gif",
     "static/media/BannerForNext.jpg": "/SriStore/static/media/BannerForNext.95e8fd6fdb531e5e865c.jpg",
     "static/media/DellLogo1.gif": "/SriStore/static/media/DellLogo1.ad1dddc07d10c986b5a1.gif",
     "static/media/one-1.gif": "/SriStore/static/media/one-1.56bb1964e2e67dc18aec.gif",
     "static/media/Bell_Success.wav": "/SriStore/static/media/Bell_Success.444046fd6ce0ae515e9a.wav",
     "static/media/MacLogo1.gif": "/SriStore/static/media/MacLogo1.cdd199464c062dbce325.gif",
     "static/media/Banner3.jpg": "/SriStore/static/media/Banner3.4ac1992a6425018e950f.jpg",
+    "static/media/pallets.gif": "/SriStore/static/media/pallets.72e9c8c5b09b094602f7.gif",
     "static/media/SriStoreLogo1.png": "/SriStore/static/media/SriStoreLogo1.f2fc760dc7534850913e.png",
     "static/media/One+.png": "/SriStore/static/media/One+.c7e6b134a296c5ac4789.png",
+    "static/media/services2.jpg": "/SriStore/static/media/services2.ee476487420e39fbecfa.jpg",
     "static/media/S23.png": "/SriStore/static/media/S23.3548865e3776364e5faa.png",
     "static/media/IPhone15.png": "/SriStore/static/media/IPhone15.3e503eafd0df6f8c482a.png",
     "static/media/hp-logo.gif": "/SriStore/static/media/hp-logo.8cc6b92b194b9fbc3ad7.gif",
@@ -51,12 +55,12 @@
     "static/media/slick.ttf": "/SriStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
-    "main.6a5fc9d0.css.map": "/SriStore/static/css/main.6a5fc9d0.css.map",
-    "main.4b42115d.js.map": "/SriStore/static/js/main.4b42115d.js.map",
+    "main.d666ec96.css.map": "/SriStore/static/css/main.d666ec96.css.map",
+    "main.d9521816.js.map": "/SriStore/static/js/main.d9521816.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a5fc9d0.css",
-    "static/js/main.4b42115d.js"
+    "static/css/main.d666ec96.css",
+    "static/js/main.d9521816.js"
   ]
 }
