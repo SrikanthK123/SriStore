@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SriStore/static/css/main.511b55ca.css",
-    "main.js": "/SriStore/static/js/main.ffabc053.js",
+    "main.js": "/SriStore/static/js/main.aee30e3a.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
     "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
@@ -21,6 +21,7 @@
     "static/media/buy1.gif": "/SriStore/static/media/buy1.ed0b531395428f9bdda4.gif",
     "static/media/grocery.gif": "/SriStore/static/media/grocery.becd0719fbc6a3d2796d.gif",
     "static/media/pos.gif": "/SriStore/static/media/pos.40dfc66803e8a992ecf1.gif",
+    "static/media/online-learning1.gif": "/SriStore/static/media/online-learning1.3848b6ad0e50dfea5586.gif",
     "static/media/delivery-truck1.gif": "/SriStore/static/media/delivery-truck1.81347972c6a759ab6087.gif",
     "static/media/battery.gif": "/SriStore/static/media/battery.f957da700107595ee153.gif",
     "static/media/delivery-truck-Order.gif": "/SriStore/static/media/delivery-truck-Order.e828f0004463d848b777.gif",
@@ -36,7 +37,6 @@
     "static/media/ProductAddCart.gif": "/SriStore/static/media/ProductAddCart.6cd78ae63de54e76762f.gif",
     "static/media/wallet.gif": "/SriStore/static/media/wallet.94f7c409c2c532ebd04d.gif",
     "static/media/AddTocart.gif": "/SriStore/static/media/AddTocart.ffc7c497baf89394cbf1.gif",
-    "static/media/online-learning.gif": "/SriStore/static/media/online-learning.6ab839184f4b8f14708f.gif",
     "static/media/broken.gif": "/SriStore/static/media/broken.c81a52e97cb179a435a1.gif",
     "static/media/BannerForNext.jpg": "/SriStore/static/media/BannerForNext.95e8fd6fdb531e5e865c.jpg",
     "static/media/DellLogo1.gif": "/SriStore/static/media/DellLogo1.ad1dddc07d10c986b5a1.gif",
@@ -57,11 +57,11 @@
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
     "main.511b55ca.css.map": "/SriStore/static/css/main.511b55ca.css.map",
-    "main.ffabc053.js.map": "/SriStore/static/js/main.ffabc053.js.map",
+    "main.aee30e3a.js.map": "/SriStore/static/js/main.aee30e3a.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.511b55ca.css",
-    "static/js/main.ffabc053.js"
+    "static/js/main.aee30e3a.js"
   ]
 }
