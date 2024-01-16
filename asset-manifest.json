@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SriStore/static/css/main.511b55ca.css",
-    "main.js": "/SriStore/static/js/main.177a96fe.js",
+    "main.js": "/SriStore/static/js/main.ffabc053.js",
     "static/js/787.254cb387.chunk.js": "/SriStore/static/js/787.254cb387.chunk.js",
     "static/media/LenovoLegionVideo.mp4": "/SriStore/static/media/LenovoLegionVideo.1c1f632a3b7c3604f37b.mp4",
     "static/media/SamsungTV.mp4": "/SriStore/static/media/SamsungTV.fec993e4e729f9cf4dc0.mp4",
@@ -36,6 +36,7 @@
     "static/media/ProductAddCart.gif": "/SriStore/static/media/ProductAddCart.6cd78ae63de54e76762f.gif",
     "static/media/wallet.gif": "/SriStore/static/media/wallet.94f7c409c2c532ebd04d.gif",
     "static/media/AddTocart.gif": "/SriStore/static/media/AddTocart.ffc7c497baf89394cbf1.gif",
+    "static/media/online-learning.gif": "/SriStore/static/media/online-learning.6ab839184f4b8f14708f.gif",
     "static/media/broken.gif": "/SriStore/static/media/broken.c81a52e97cb179a435a1.gif",
     "static/media/BannerForNext.jpg": "/SriStore/static/media/BannerForNext.95e8fd6fdb531e5e865c.jpg",
     "static/media/DellLogo1.gif": "/SriStore/static/media/DellLogo1.ad1dddc07d10c986b5a1.gif",
@@ -56,11 +57,11 @@
     "static/media/slick.woff": "/SriStore/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SriStore/index.html",
     "main.511b55ca.css.map": "/SriStore/static/css/main.511b55ca.css.map",
-    "main.177a96fe.js.map": "/SriStore/static/js/main.177a96fe.js.map",
+    "main.ffabc053.js.map": "/SriStore/static/js/main.ffabc053.js.map",
     "787.254cb387.chunk.js.map": "/SriStore/static/js/787.254cb387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.511b55ca.css",
-    "static/js/main.177a96fe.js"
+    "static/js/main.ffabc053.js"
   ]
 }
