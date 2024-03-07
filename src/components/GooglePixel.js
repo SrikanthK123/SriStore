@@ -1,6 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import image from '../Images/online-learning1.gif'
 const GooglePixel = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
    const  vivoMobiles =[
         {
             title : "vivo X90 5G",
@@ -67,10 +71,10 @@ const GooglePixel = () => {
        class="d-flex align-items-center text-body-emphasis text-decoration-none"
      >
        <span
-         class="fs-5 mx-5 fw-bold"
+         class="fs-6 mx-5 fw-bold"
          style={{ color: "white", fontFamily: "Georgia, serif",marginTop:'20px',backgroundColor:'#f67280',padding:'10px',borderRadius:'12px',width:'fit-Content'}}
        >
-         <img src='https://cdn-icons-png.flaticon.com/512/5608/5608615.png' style={{width:'50px'}} />
+        <img src= {image} style={{width:'50px',borderRadius:'12px'}} />
          Top Vivo Phones 
        </span>
      </a>

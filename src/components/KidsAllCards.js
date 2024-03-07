@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {
   Link
 } from "react-router-dom";
 const KidsAllCards = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
+  
   const Toys = [
     {
         title : " Buzz Lightyear Toy",

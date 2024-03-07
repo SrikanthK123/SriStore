@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import DellLogo from "../Images/DellLogo1.gif"
 import MacLogo from "../Images/MacLogo1.gif" 
 import HpLogo from "../Images/hp-logo.gif"
 import LegionLogo from "../Images/LenovoLogo1.gif"
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 const Laptops = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="HomePage">
     <div

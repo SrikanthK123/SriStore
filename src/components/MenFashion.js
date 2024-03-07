@@ -1,10 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const MenFashion = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   const settings = {
     infinite: true,
     speed: 500,

@@ -1,6 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 const WomenSingleProduct = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const [distance,setDistance]= useState('')
         const [rate,setRate]= useState('')
         const [res,setRes]= useState(null)

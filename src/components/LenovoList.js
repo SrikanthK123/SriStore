@@ -1,6 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import image from '../Images/online-learning1.gif'
 const LenovoList = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   const Laptops = [
     {
       title : "Lenovo Chromebook C330",
@@ -69,19 +73,20 @@ const LenovoList = () => {
   ]
   return (
     <div className="HomePage">
-    <header class="pb-3 mb-4 border-bottom">
+    <header class="pb-3 mb-4 " style={{display:'flex',justifyContent:'center'}}>
       <a
-        href="/"
-        class="d-flex align-items-center text-body-emphasis text-decoration-none"
-      >
-        <span
-          class="fs-4 mx-5 fw-bold"
-          style={{ color: "white", fontFamily: "Georgia, serif" }}
-        >
-          Top Lenovo Laptops 
-        </span>
-      </a>
-    </header>
+       href="/"
+       class="d-flex align-items-center text-body-emphasis text-decoration-none"
+     >
+          <span
+         class="fs-6 mx-5 fw-bold"
+         style={{ color: "white", fontFamily: "Georgia, serif",marginTop:'20px',backgroundColor:'#a2a8d3',padding:'10px',borderRadius:'12px',width:'fit-Content'}}
+       >
+         <img src= {image} style={{width:'50px',borderRadius:'12px'}} />
+         Top Lenovo Laptop 
+       </span>
+        </a>
+      </header>
     <div className="container">
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
       {Laptops.map((laptop, index) => (

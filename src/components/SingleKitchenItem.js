@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Pan from "../Images/pan1.gif";
 import BuyItem from "../Images/shopping-basket.gif";
 import AddToCart from "../Images/AddTocart.gif";
@@ -6,6 +6,9 @@ import Receipt from "../Images/pos.gif"
 import { Link, Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 const SingleKitchenItem = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const BuyProduct = ()=>{
         alert("SuccessFully Ordered")
         

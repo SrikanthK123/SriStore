@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import AddCartAnimi from "../Images/AddToCart1.gif";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import placeOrder from "../Images/delivery-truck1.gif";
 import ProductAddCart from "../Images/ProductAddCart.gif";
 const LaptopDetails = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
  
   return (
     <div className='HomePage'>

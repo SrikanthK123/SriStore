@@ -1,3 +1,8 @@
+body, html {
+  scroll-behavior: smooth; /* Remove this line if present */
+  /* Other styles... */
+}
+
 #Nav-Item{
   color: rgb(237, 229, 229);
   font-weight: bold;
@@ -11,7 +16,6 @@
   border-bottom-left-radius: 40%;;
   border-top-left-radius: 10px; 
   border-top-right-radius: 10px; 
-  padding: 7px;
   background: linear-gradient(to bottom, #ffd6b6, #ea7362);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgb(0 0 0 / 35%) 0px -2px 6px 0px inset;
 }
@@ -42,14 +46,15 @@
   height: auto;
 
 }
-#HomeFirstSub{
+#HomeFirstSub {
   background: linear-gradient(rgba(71, 90, 94, 0.8), rgba(53, 65, 64, 0.8)), url('./Images/Banner3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
-  
-} 
+}
+
+
 #SecBG{
   background: linear-gradient(rgba(166, 130, 194, 0.8), rgba(138, 227, 219, 0.8)), url('./Images/BannerForNext.jpg');
   background-position: center;
@@ -852,4 +857,101 @@ button:hover {
     transform: translateY(-10px); 
     border: 3px solid rgb(207, 52, 138);
   }
+}
+.navbar-toggler.x {
+  border: none;
+  &:focus {
+      outline: none;
+  }
+  &[aria-expanded="true"] {
+      .icon-bar {
+          &:nth-of-type(1) {
+              -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+              -webkit-transform-origin: 10% 10%;
+              -ms-transform-origin: 10% 10%;
+              transform-origin: 10% 10%;
+          }
+          &:nth-of-type(2) {
+              opacity: 0;
+              filter: alpha(opacity=0);
+          }
+          &:nth-of-type(3) {
+              -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+              -webkit-transform-origin: 10% 90%;
+              -ms-transform-origin: 10% 90%;
+              transform-origin: 10% 90%;
+          }
+      }
+  }
+  .icon-bar {
+      width: 22px;
+      display: block;
+      height: 2px;
+      background-color: #fff;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      &+ .icon-bar {
+          margin-top: 4px;
+      }
+      &:nth-of-type(1) {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+      }
+      &:nth-of-type(2) {
+          opacity: 1;
+          filter: alpha(opacity=100);
+      }
+      &:nth-of-type(3) {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+      }
+  }
+}
+#FormBG {
+  background: url("./Images/services2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.form-control {
+  background-color: rgba(78, 74, 74, 0.5);
+  border: none; /* Optional: Remove border for a cleaner look */
+}
+
+.form-control:focus {
+  background-color: rgba(61, 46, 46, 0.5); /* Adjust as needed */
+  /* Add any additional styles for the focused state if desired */
+  color: white;
+}
+#servicesBtn{
+  background: #0A82B4;
+  color: #FF7630;
+  font-weight: bold;
+  border: 2px solid #F4CD0D;
+  transition: 0.5s ease-in-out
+}
+#servicesBtn:hover{
+  background: #FF7630;
+  color: #0A82B4;
+  font-weight: bold;
+  border: 2px solid white;
+}
+#serviceCardBody{
+  opacity: 1;
+}
+#Viewbtn{
+  background-color: #01497B;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#Viewbtn:hover{
+  background-color: #a2a8d3;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: black;
 }

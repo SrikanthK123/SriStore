@@ -16,18 +16,12 @@ const NavBar = () => {
           <Link class="navbar-brand " to="/SriStore">
             <img src={LogoTest} className="LogoMain" />
           </Link>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            id="ToggleImage"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <button class="navbar-toggler x" id="ToggleImage" style={{height:'40px',backgroundColor:'#ffcbcb'}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
@@ -77,7 +71,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#" id="Nav-Item">
+                <Link class="nav-link" to="/Services" id="Nav-Item">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
@@ -89,7 +83,7 @@ const NavBar = () => {
                     <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5" />
                   </svg>
                   Service
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown mx-2">
                 <a

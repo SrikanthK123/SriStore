@@ -7,6 +7,9 @@ import placeOrder from "../Images/delivery-truck1.gif";
 import SuccessOrder from "../Images/delivery-truck-Order.gif";
 import SuccessFullyOrder from "../Images/Bell_Success.wav"
 const ProductMain = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   const [clickCount, setClickCount] = useState(null);
   const [amount, setAmount] = useState(null);
 

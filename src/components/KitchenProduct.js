@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import grocery from "../Images/grocery.gif";
 import dairyproducts from "../Images/cutting-board.gif";
 import {
     Link
   } from "react-router-dom";
 const KitchenProduct = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const KitchenItems = [
         {
             item :'Non-stick frying pan',

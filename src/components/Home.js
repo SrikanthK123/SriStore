@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Buy from "../Images/buy1.gif";
 import Offer from "../Images/Offer1.gif";
 import MainGif from "../Images/online-shopping2.gif";
@@ -19,6 +19,9 @@ import LGVideo from '../Images/LGVideo.mp4'
 import SonyTv from '../Images/SonyTv.mp4'
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="HomePage">
       <div
@@ -33,7 +36,7 @@ const Home = () => {
             Your favorite brands, just a click away
           </h3>
           <div className="d-flex gap-3 justify-content-center lead fw-normal">
-            <a className="icon-link" href="#">
+            <a className="icon-link" href="#" >
               <img src={Offer} style={{ width: "60px" }} />
             </a>
             <a className="icon-link" href="#">
@@ -80,7 +83,7 @@ const Home = () => {
   <div class="video-background">
     <video src={samsungVideo} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '12px' }} controls autoplay  />
   </div>
-  <div class="content-overlay">
+  <div class="content-overlay" >
     <div class="my-3 py-3">
       <h2 class="display-5">Galaxy </h2>
       <p class="lead">Four high-end Android-based smartphones</p>

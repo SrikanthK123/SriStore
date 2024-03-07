@@ -8,6 +8,9 @@ import placeOrder from "../Images/delivery-truck1.gif";
 import AddCartAnimi from "../Images/AddToCart1.gif";
 import SuccessFullyOrder from "../Images/Bell_Success.wav" 
 const KitchenSingle = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   const PositiveReview = [
     {
       mail: "Srikanth",

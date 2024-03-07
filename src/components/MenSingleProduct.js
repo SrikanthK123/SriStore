@@ -1,6 +1,9 @@
-import React, { useState }  from "react";
+import React, { useState,useEffect }  from "react";
 
 const MenSingleProduct = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
  
   return (
     <div className="HomePage">

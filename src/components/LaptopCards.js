@@ -1,6 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import image from '../Images/online-learning1.gif'
 const LaptopCards = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   const Laptops = [
     {
       title : "Vostro 3520",
@@ -69,17 +73,18 @@ const LaptopCards = () => {
   ]
   return (
     <div className="HomePage">
-      <header class="pb-3 mb-4 border-bottom">
-        <a
-          href="/"
-          class="d-flex align-items-center text-body-emphasis text-decoration-none"
-        >
+      <header class="pb-3 mb-4 " style={{display:'flex',justifyContent:'center'}}>
+      <a
+       href="/"
+       class="d-flex align-items-center text-body-emphasis text-decoration-none"
+     >
           <span
-            class="fs-4 mx-5 fw-bold"
-            style={{ color: "white", fontFamily: "Georgia, serif" }}
-          >
-            Top Dell Laptops 
-          </span>
+         class="fs-6 mx-5 fw-bold"
+         style={{ color: "white", fontFamily: "Georgia, serif",marginTop:'20px',backgroundColor:'#a2a8d3',padding:'10px',borderRadius:'12px',width:'fit-Content'}}
+       >
+          <img src= {image} style={{width:'50px',borderRadius:'12px'}} />
+         Top Dell Laptop 
+       </span>
         </a>
       </header>
       <div className="container">

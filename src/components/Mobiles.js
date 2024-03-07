@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import SamsungLogo from "../Images/SamsungLogo1.gif" 
 import OnepulseLogo from "../Images/one-1.gif"
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 const Mobiles = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="HomePage">
       <div

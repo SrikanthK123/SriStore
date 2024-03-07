@@ -32,6 +32,7 @@ import SamsungMobiles from "./components/SamsungMobiles";
 import OnePlusMobiles from "./components/OnePlusMobiles";
 import ROGMobiles from "./components/ROGMobiles";
 import GooglePixel from "./components/GooglePixel";
+import Services from "./components/Services";
 
 function App() {
   const KitchenItem = [
@@ -2551,6 +2552,7 @@ function App() {
           <Route exact path="/OnePlusPhones"><OnePlusMobiles/></Route>
           <Route exact path="/RealMePhones"><ROGMobiles/></Route>
           <Route exact path="/GooglePixel"><GooglePixel/></Route>
+          <Route exact path="/Services"><Services/></Route>
         </Switch>
         <Footer />
       </Router>

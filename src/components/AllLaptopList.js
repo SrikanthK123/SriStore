@@ -6,6 +6,9 @@ import ProductAddCart from "../Images/ProductAddCart.gif";
 import SuccessFullyOrder from "../Images/Bell_Success.wav" 
 
 const AllLaptopList = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const [clickCount, setClickCount] = useState(null);
   const [amount, setAmount] = useState(null);
 

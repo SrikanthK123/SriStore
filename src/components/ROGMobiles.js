@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const ROGMobiles = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const RealMePhones = [
         {
             title : "realme C53",
@@ -59,6 +62,7 @@ const ROGMobiles = () => {
             imageUrl : "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1662442870/Croma%20Assets/Communication/Mobiles/Images/243060_wthuve.png?tr=w-640",
         },
     ]
+    
   return (
     <div className='HomePage'>
     <header class="pb-3 mb-4 " style={{display:'flex',justifyContent:'center'}}>
@@ -67,7 +71,7 @@ const ROGMobiles = () => {
        class="d-flex align-items-center text-body-emphasis text-decoration-none"
      >
        <span
-         class="fs-5 mx-5 fw-bold"
+         class="fs-6 mx-5 fw-bold"
          style={{ color: "white", fontFamily: "Georgia, serif",marginTop:'20px',backgroundColor:'#f67280',padding:'10px',borderRadius:'12px',width:'fit-Content'}}
        >
          <img src='https://cdn-icons-png.flaticon.com/512/5608/5608615.png' style={{width:'50px'}} />
